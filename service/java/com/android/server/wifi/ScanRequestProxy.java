@@ -67,9 +67,9 @@ public class ScanRequestProxy {
     private static final String TAG = "WifiScanRequestProxy";
 
     @VisibleForTesting
-    public static final int SCAN_REQUEST_THROTTLE_TIME_WINDOW_FG_APPS_MS = 120 * 1000;
+    public static final int SCAN_REQUEST_THROTTLE_TIME_WINDOW_FG_APPS_MS = 1000;
     @VisibleForTesting
-    public static final int SCAN_REQUEST_THROTTLE_MAX_IN_TIME_WINDOW_FG_APPS = 4;
+    public static final int SCAN_REQUEST_THROTTLE_MAX_IN_TIME_WINDOW_FG_APPS = 1;
     @VisibleForTesting
     public static final int SCAN_REQUEST_THROTTLE_INTERVAL_BG_APPS_MS = 30 * 60 * 1000;
 
